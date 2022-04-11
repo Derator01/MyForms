@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>MyForms.Program</StartupObject>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="KLIN">
+      <HintPath>..\..\..\Other\KLIN\KLIN\bin\Debug\net6.0-windows\KLIN.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3D">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.Direct3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3DX">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.DirectX.Direct3DX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualC">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.VisualC.Dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Packages\NewFolder\" />
+  </ItemGroup>
+
+</Project>
